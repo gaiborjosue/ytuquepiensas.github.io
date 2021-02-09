@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+        <!-- =====BOX ICONS===== -->
+        <script src="https://kit.fontawesome.com/805b74adf5.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" type="image/png" href="assets/img/podfav.png">
+
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-8094ad20-e5f7-41c1-ac83-7a6fda2b0ac1"></div>
+        <title>¿Y Tú, Que Piensas? | Podcast</title>
+
+        
+    </head>
+    <body>
+        <div class="intro">
+            <div class="intro-text">
+                <h1 class="hide">
+                    <span class="text">Bienvenid@ a</span>
+                </h1>
+                <h1 class="hide">
+                    <span class="text">¿Y Tú, Que Piensas?</span>
+                </h1>
+            </div>
+        </div>
+
+        <div class="slider"></div>
+
+        <a href="#" class="scrolltop show-scroll" id="scroll-top">
+            <i class="fa fa-angle-up scrolltop__icon"></i>
+        </a>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div class="nav__logo">
+                    <a href="#">¿Y Tú,<span> Que Piensas?</span></a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Inicio</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Podcasts</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='fa fa-bars'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!---->
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <script class="test" type="text/javascript">
+
+                    function stars(){
+                        let count = 500;
+                        let scene = document.querySelector(".home");
+                        let j = 0;
+                        while(j < count){
+                            let star = document.createElement("j");
+                            let x = Math.floor(Math.random() * window.innerWidth);
+                            let y = Math.floor(Math.random() * window.innerHeight);
+                            let duration = Math.random() * 10;
+                            let size = Math.random() * 2;
+
+                            star.style.left = x+"px";
+                            star.style.top = y+"px";
+                            star.style.width = 1+size+"px";
+                            star.style.height = 1+size+"px";
+
+                            star.style.animationDuration = 5+duration+"s";
+                            star.style.animationDelay = duration+"s";
+
+                            scene.appendChild(star);
+                            j++
+                        }
+                    }
+                
+                    stars();
+                </script>
+
+                <!--<iframe src="https://anchor.fm/y-tu-que-piensas/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>-->
+                <div class="home__data">
+                    <h1 class="home__title">Hola! Somos ¿YTQP?<br>Un <span class="home__title-color">Podcast</span><span > sobre:</span><br> <span class="typing"></span></h1>
+                    <h2 class="home__subtitle">Acompáñame en mi ruta de aprendizaje como estudiante IB.<br> <span class="cite"> -Josué Gaibor</span></br></h2>
+                    
+                    <iframe class="pod_update" src="https://open.spotify.com/embed-podcast/episode/4l6dKyIz5fFcIav9YrJ6qC" width="50%" height="234" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <!--<a href="#contact" class="button">Contact</a>
+                    <a href="" class="button">Download CV</a>-->
+                </div>
+
+                <div>
+                    <input type="checkbox" class="checkbox" id="checkbox">
+                    <label for="checkbox" class="label">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                        
+                        <div class="ball"></div>
+                    </label>
+                </div>
+
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='fa fa-facebook'></i></a>
+                    <a href="" class="home__social-icon"><i class='fa fa-twitter' ></i></a>
+                    <a href="" class="home__social-icon"><i class='fa fa-instagram' ></i></a>
+                </div>
+    
+                <div class="home__img">    
+                    <img src="assets/img/podlogo.png" alt="">
+                </div>
+
+                
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+
+
+                <h2 class="section-title-2">Sobre</h2>
+
+                <div class="about__container bd-grid">
+                    
+                    <div class="about__img">
+                        <img src="assets/img/perfil_2.jfif" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">¿Quienes Somos?</h2>
+                        <p class="about__text">El canal: ¿Y Tú, Que Piensas? , crea contenido semanal y principalmente enfocado en la elaboración de contenido educativo que se enfoca en temas de interés. Es decir, estos temas pueden tener relación con la economía, la sociedad, la cultura, gustos personales, datos curiosos o incluso la política. De manera general, este podcast te brindará información muy valiosa mediante entrevistas y encuestas a personas profesionales en el campo, o incluso solo yo hablando sobre asignaturas del Bachillerato Internacional los cuales impulsarán tu aprendizaje. </p>           
+                    </div>                                   
+                </div>
+
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+
+                <h2 class="section-title">Habilidades</h2>
+
+                <!--<iframe class="pod_update" src="https://open.spotify.com/embed-podcast/show/4h0AeQc8BYFFfWd8Rba5wk" width="40%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>-->
+
+                <div class="skills__container  bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Habilidades a desarrollar</h2>
+                        <p class="skills__text">En nuestro podcast podrás ver estas habilidades plasamadas en cada episodio, por ende, te incentivo a escucharlos y así tu también las desarrollarás.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fas fa-search skills__icon'></i>
+                                <span class="skills__name"><p>Indagación</p></span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage"><p>95%</p></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fas fa-cloud skills__icon'></i>
+                                <span class="skills__name"><p>Pensamiento Crítico</p></span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage"><p>85%</p></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fas fa-microphone skills__icon' ></i>
+                                <span class="skills__name"><p>Comunicación</p></span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage"><p>90%</p></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fas fa-brain skills__icon'></i>
+                                <span class="skills__name"><p>Mentalidad Abierta</p></span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage"><p>75%</p></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/perfil_3.jfif" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="work__title">Podcasts</h2>
+                <h2 class="work__subtitle">Escucha algunos de mis podcasts.</h2>
+
+            
+                <iframe class="embed_pod" allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="450" style="width:100%;max-width:1300px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/y-t%C3%BA-que-piensas-podcast/id1494529610"></iframe>
+
+                <a href="" class="button-2">Ver más episodios...</a>
+
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contacto</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="https://formspree.io/f/mrgojvrv" method="POST" class="contact__form">
+                        <input type="text" placeholder="Name" name="name"class="contact__input">
+                        <input type="mail" placeholder="Email" name="_replyto" class="contact__input">
+                        <textarea placeholder="Text" name="message" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <button type="submit" class="contact__button button">Send</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">¿Y Tú, Que Piensas?</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='fa fa-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='fa fa-twitter' ></i></a>
+                <a href="#" class="footer__icon"><i class='fa fa-instagram' ></i></a>
+            </div>
+            <p>&#169; 2021 copyright all right reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
