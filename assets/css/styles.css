@@ -147,6 +147,10 @@ img{
     transition: .5s;
     
   }
+	
+  .nav__logo a{
+    font-size: 15px;
+  }
 }
 .nav__item{
   margin-bottom: var(--mb-4);
