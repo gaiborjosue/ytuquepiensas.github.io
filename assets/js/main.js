@@ -1,4 +1,3 @@
-
 /*===== MENU SHOW =====*/ 
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
@@ -73,11 +72,7 @@ var typed = new Typed(".typing", {
     loop: true
 });
 
-const tl = gsap.timeline({defaults: {ease: "power1.out" }});
-tl.to(".text", {y:"0%", duration: 1, stagger: 0.25});
-tl.to(".slider", {y:"-100%", duration:1.5, delay:0.5 });
-tl.to(".intro", {y:"-100%", duration: 1}, "-=1");
-//tl.fromTo()
+
 
 const work = document.querySelector(".work");
 const card = document.querySelector(".work__container");
