@@ -147,10 +147,6 @@ img{
     transition: .5s;
     
   }
-	
-  .nav__logo a{
-    font-size: 15px;
-  }
 }
 .nav__item{
   margin-bottom: var(--mb-4);
@@ -175,8 +171,7 @@ img{
 
 .nav__logo a{
   color: var(--second-color);
-  font-size: 35px;
-  
+  font-size: 15px;
 }
 
 .nav__logo a span{
@@ -716,6 +711,11 @@ body .l-main .test-2 {
   .nav{
     height: calc(var(--header-height) + 1rem);
   }
+	
+  .nav__logo a{
+    font-size: 35px;
+  }
+	
   .nav__list{
     display: flex;
     padding-top: 0;
