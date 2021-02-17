@@ -269,7 +269,7 @@ body.dark .home j{
 }
 
 .home{
-  height: calc(100vh - 3rem);
+  height: 100%;
   row-gap: 1rem;
 
 }
