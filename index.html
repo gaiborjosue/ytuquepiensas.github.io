@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,11 @@
         <link rel="stylesheet" href="assets/css/styles.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="assets/css/lightslider.css"/>
+        <!--Jquery-->
+        <script type="text/javascript" src="assets/js/JQuery3.3.1.js"></script>
+        <script type="text/javascript" src="assets/js/lightslider.js"></script>
         <!-- =====BOX ICONS===== -->
         <script src="https://kit.fontawesome.com/805b74adf5.js" crossorigin="anonymous"></script>
         <link rel="shortcut icon" type="image/png" href="assets/img/podfav.png">
@@ -18,18 +23,6 @@
         
     </head>
     <body>
-        <div class="intro">
-            <div class="intro-text">
-                <h1 class="hide">
-                    <span class="text">Bienvenid@ a</span>
-                </h1>
-                <h1 class="hide">
-                    <span class="text">¿Y Tú, Que Piensas?</span>
-                </h1>
-            </div>
-        </div>
-
-        <div class="slider"></div>
 
         <a href="#" class="scrolltop show-scroll" id="scroll-top">
             <i class="fa fa-angle-up scrolltop__icon"></i>
@@ -59,37 +52,8 @@
         </header>
 
         <main class="l-main">
-            <!---->
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
-                <script class="test" type="text/javascript">
-
-                    function stars(){
-                        let count = 500;
-                        let scene = document.querySelector(".home");
-                        let j = 0;
-                        while(j < count){
-                            let star = document.createElement("j");
-                            let x = Math.floor(Math.random() * window.innerWidth);
-                            let y = Math.floor(Math.random() * window.innerHeight);
-                            let duration = Math.random() * 10;
-                            let size = Math.random() * 2;
-
-                            star.style.left = x+"px";
-                            star.style.top = y+"px";
-                            star.style.width = 1+size+"px";
-                            star.style.height = 1+size+"px";
-
-                            star.style.animationDuration = 5+duration+"s";
-                            star.style.animationDelay = duration+"s";
-
-                            scene.appendChild(star);
-                            j++
-                        }
-                    }
-                
-                    stars();
-                </script>
 
                 <!--<iframe src="https://anchor.fm/y-tu-que-piensas/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>-->
                 <div class="home__data">
@@ -101,7 +65,7 @@
                     <a href="" class="button">Download CV</a>-->
                 </div>
 
-                <div>
+                <div class="test-2">
                     <input type="checkbox" class="checkbox" id="checkbox">
                     <label for="checkbox" class="label">
                         <i class="fas fa-moon"></i>
@@ -128,7 +92,7 @@
             <section class="about section " id="about">
 
 
-                <h2 class="section-title-2">Sobre</h2>
+                <h2 class="section-title">Sobre</h2>
 
                 <div class="about__container bd-grid">
                     
@@ -222,7 +186,12 @@
                 <a href="" class="button-2">Ver más episodios...</a>
 
             </section>
+            
+            <!--===== GUESTS =====-->
 
+            <section class="guests section" id="guests">
+                
+            </section>
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contacto</h2>
