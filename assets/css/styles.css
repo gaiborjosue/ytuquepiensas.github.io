@@ -614,6 +614,12 @@ body .l-main .test-2 {
 
 /*====== INVITADOS =====*/
 
+.subs{
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+
 /* ===== CONTACT =====*/
 .contact__input{
   width: 100%;
@@ -807,6 +813,11 @@ body .l-main .test-2 {
     width:auto;
     margin-left: -1030px;
     margin-top: 375px;
+  }
+
+  .subs{
+    margin-left: 25%;
+    padding-bottom: 2rem;
   }
 }
 
