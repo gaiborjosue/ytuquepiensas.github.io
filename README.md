@@ -1,7 +1,8 @@
-# Portfolio Responsive Complete
-## [Watch it on youtube](https://youtu.be/AKNvTxWOdKw)
-### Portfolio responsive complete
-A clean and nice web portfolio for designer or developer. That includes almost everything you want to show. At first, your name, links to social networks and a great image. Then the About section displays more information about you. Then the list of Skills it offers. It also has a section where it shows some recent work. And at the bottom it has a form, and at the end with a footer.
+# Página Web de Podcasts - ¿Y Tú, Que Piensas? Podcast
+## Autor: Edward Josue Gaibor Jimenez
+### Página adaptativa hacia varios dispositivos.
+Esta página fue programada como uno de mis proyectos iniciales dentro de HTML, CSS y Javascript. El canal de podcasts es de mi autoría y para algunos objetos tales como la navegación, tome referencia a: [Bedimcode](https://www.youtube.com/c/Bedimcode).
 
-Don't forget to join the channel for more videos like this.
-[Bedimcode](https://www.youtube.com/c/Bedimcode)
+Te invito a suscribirte y escuchar nuestro podcast en: https://ytuquepiensas.ga
+
+Gracias!
