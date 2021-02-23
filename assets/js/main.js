@@ -42,9 +42,9 @@ const sr = ScrollReveal({
 });
 
 /*SCROLL HOME*/
-sr.reveal('.home__title',{}); 
+sr.reveal('.home__title',{delay: 200}); 
 sr.reveal('.button',{delay: 200}); 
-sr.reveal('.home__img',{delay: 400}); 
+sr.reveal('.home__img',{delay: 500}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 
 /*SCROLL ABOUT*/
@@ -101,3 +101,11 @@ const checkbox = document.getElementById("checkbox");
 checkbox.addEventListener("change", () => {
     document.body.classList.toggle("dark");
 })
+
+const card1 = document.querySelectorAll('.card__inner');
+
+card1.forEach((card1) => {
+     card1.addEventListener("click", () => {
+          card1.classList.toggle("is-flipped");
+     });
+});
