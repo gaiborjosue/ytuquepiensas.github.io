@@ -300,6 +300,20 @@ body.dark .card__body p {
 }
 
 /*===== HOME =====*/ 
+.alert_box{
+  margin-top: 40px;
+  height: 50px;
+  width: 100%;
+  background-color: #0E2431;
+}
+
+.texto_alert{
+  color: #eeeeee;
+  text-align: center;
+  padding-top: 15px;
+  
+}
+
 .pod_update { 
   width: 100%;
 }
@@ -335,7 +349,9 @@ body.dark .card__body p {
   align-self: center;
   text-align: center;
   z-index: 10;
+  justify-content: center;
 }
+
 
 .home__title{
   font-size: 30px;
@@ -1060,9 +1076,11 @@ body .l-main .test-2 {
     text-align: center;
   }
   .home__data{
-    align-self: flex-end;
+    align-self: center;
     margin-top: 100px;
     text-align: center;
+    justify-content: center;
+    
   }
 
   .home__social{
@@ -1085,6 +1103,12 @@ body .l-main .test-2 {
     display:grid;
     top: 8%;
   }
+
+  .alert_box{
+    margin-bottom: -80px;
+    margin-top: 60px;
+  }
+
 
   .label {
     margin-bottom: 6%;
@@ -1162,9 +1186,7 @@ body .l-main .test-2 {
     margin-left: auto;
     margin-right: auto;
   }
-  .bd-grid .home__data {
-    margin-left: -5%;
-  }
+
   .home__img{
     right: 5%;
   }
